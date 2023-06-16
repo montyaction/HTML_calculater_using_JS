@@ -12,69 +12,6 @@ body {
   margin: 0;
 }
 
-/* Responsive Images */
-
-embed,
-iframe,
-img,
-object,
-video {
-  max-width: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
-li,
-p,
-pre,
-blockquote,
-figure,
-hr {
-  margin: 0;
-  padding-right: 0;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:focus {
-  outline: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  display: block;
-}
-
-/* Removes all decimals and discs from lists */
-
-ol,
-ul {
-  list-style: none;
-}
-
-/* 
- * Completely resets form items
- * ----------------------------
- * Super hard reset that removes all borders
- * and radiuses of all form items (including
- * checkboxes and radios)
- */
-
-input,
-textarea,
 button {
   border: 0;
   border-radius: 0;
@@ -87,12 +24,6 @@ button {
   text-align: left;
 }
 
-input:hover,
-input:active,
-input:focus,
-textarea:hover,
-textarea:active,
-textarea:focus,
 button:hover,
 button:active,
 button:focus {
@@ -119,10 +50,6 @@ body {
 
 .container {
   max-width: 20em;
-}
-
-.container > p {
-  text-align: center;
 }
 
 .calculator {
@@ -171,11 +98,11 @@ body {
   z-index: 1;
 }
 
-.key--operator {
+.calculator__key--operator {
   background-color: #eee;
 }
 
-.key--equal {
+.calculator__key--equal {
   background-image: linear-gradient(to bottom, #fe886a, #ff7033);
   grid-column: -2;
   grid-row: 2 / span 4;
